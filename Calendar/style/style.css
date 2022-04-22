@@ -1,0 +1,165 @@
+@import url(reset.css);
+
+body{
+	
+	width:100%;
+	height: 100%;
+	background-image:url(back.jpg);
+	background-position:center;
+	background-repeat:repeat;
+  	background-size: cover;
+  }
+
+
+
+th,td {
+    cursor:zoom-in;
+}
+html{
+	 cursor:no-drop;
+}
+table{
+	min-width:470px;
+	min-height:112px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+h1{
+ color:white;
+ text-align:center;
+ font-size:36px;
+}
+
+h2{
+ color:white;
+ text-align:center;
+ font-size:28px;
+}
+th,tr,td{
+	text-align:center;
+	vertical-align: middle;
+	color:white;
+	border:1px solid white;
+}
+.main{
+	min-width:80px;
+}
+
+.jan{
+	box-sizing:border-box;
+	float:left;
+}
+
+.fev{
+	box-sizing:border-box;
+	float:right;
+}
+.mart{
+	box-sizing:border-box;
+	float:left;
+	}
+.apr{
+	box-sizing:border-box;
+	float:right;
+}
+.may{
+	box-sizing:border-box;
+	float:left;
+}
+.jun{
+	box-sizing:border-box;
+	float:right;
+}
+.jul{
+	box-sizing:border-box;
+	float:left;
+}
+.aug{
+	box-sizing:border-box;
+	float:right;
+}
+.sep{
+	box-sizing:border-box;
+	float:left;
+}
+.oct{
+	box-sizing:border-box;
+	float:right;
+}
+.nov{
+	box-sizing:border-box;
+	float:left;
+}
+.dec{
+	box-sizing:border-box;
+	float:right;
+}
+
+
+@media(max-width: 1033px){
+	
+	
+	body, html {
+	
+	width:100%;
+	height: 100%;
+	background-image:url(back.jpg);
+	background-position: center ;
+	background-repeat:repeat;
+  	background-size: cover;
+  }
+  .jan,.mart,.may,.jul,.sep,.nov{
+  	float:left;
+
+  }
+	  .fev,.apr,.jun,.aug,.oct,.dec{
+  	float:right;
+  }
+}
+
+th:active,td:active{
+	font-size:20px;
+}
+th:hover,td:hover{
+	background-color:green;
+}
+
+@media(max-width: 768px){
+	
+	
+	body, html {
+	
+	width:100%;
+	height: 100%;
+	background-image:url(back.jpg);
+	background-position: center ;
+	background-repeat:repeat;
+  	background-size: cover;
+  }
+  .jan,.fev,.mart,.apr,.may,.jun,.jul,.aug,.sep,.oct,.nov,.dec{
+  	float:left;
+  }
+	th:active,td:active{
+	font-size:20px;
+}
+}
+
+	@media(max-width:500px){
+		body, html {
+	width:100%;
+	height: 100%;
+	background-image:url(back.jpg);
+	background-position: center ;
+	background-repeat:repeat;
+  	background-size: cover;
+		}
+		
+		.jan,.fev,.mart,.apr,.may,.jun,.jul,.aug,.sep,.oct,.nov,.dec{
+  		float:left;
+  		margin-left:0;
+		}
+		th:active,td:active{
+	font-size:20px;
+}
+}
